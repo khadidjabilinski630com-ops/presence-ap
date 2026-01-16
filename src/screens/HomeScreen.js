@@ -1,12 +1,12 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 
-export default function HomeScreen() {
+export default function AccueilScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>presence-ap</Text>
+      <Text style={styles.title}>présence-ap</Text>
       <Text style={styles.subtitle}>Écran de départ</Text>
-      <Text style={styles.body}>
+      <Text style={styles.text}>
         Si tu vois ce texte, tout est en place.
       </Text>
     </View>
@@ -29,12 +29,12 @@ const styles = StyleSheet.create({
   },
   subtitle: {
     fontSize: 16,
-    color: "#B9C0CC",
+    color: "#A0A0A0",
     marginBottom: 16,
   },
-  body: {
+  text: {
     fontSize: 14,
-    color: "#D7DDE6",
+    color: "#CCCCCC",
     textAlign: "center",
   },
 });
